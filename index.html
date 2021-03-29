@@ -5,63 +5,96 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My first website HTML</title>
+    <link rel="stylesheet" href="Scripts/script.css">
+    <!-- Font Open Sans -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
-<body style="background-color:rgb(245, 210, 14);">
-    <style>
-        .thick-black-border{
-            border-color: black;
-            border-width: 5px;
-            border-style: solid
-           
-        }
-        .menu-style{
-            border-color:black;
-            border-width: 5px;
-            border-style: solid;
-        }
-    </style>
-    <h1 class="thick-black-border">
-        <div>
-            <img src="Images/LogoEva.png" alt="logo">
-            <a title="logoFB" href="https://www.facebook.com/e.garcia.rv/" target="_blank"><img src="Images/logoFB.png" alt="logoFB" width="50px" height="50px" align=right></a>
-            <a title="logoLK" href="https://www.linkedin.com/in/evagarciaprofile" target="_blank"><img src="Images/logoLK.jpg" alt="logoLK" width="50px" height="50px" align=right></a>
-            <a title="logomail" href="mailto:e.garcia.rv@gmail.com" target="_blank"><img src="Images/logomail.png" alt="logomail" width="50px" height="50px" align=right></a>
-        </div>
-        
-    </h1>
-    <h2>
-        <table align="center">
-            <td>
-                <th class="menu-style" style="background-color:green;">Quien Soy?</th>
-                <th class="menu-style" style="background-color:rebeccapurple;">Qué hago?</th>
-                <th class="menu-style" style="background-color: blue;">Cómo puedo ayudarte?</th>
-                <th class="menu-style" style="background-color:red;">Clientes</th>
-            </td>
-        </table>
-
-        </div>
+<body style="background-color:rgb(5, 4, 0);">
+    <header class="sticky">
+        <div class="navegador">
+            <nav>
+            <!-- Logo creado con suite de google -->
+            <img src="Images/LogoEva.png" alt="logo company" class="nav-brand">
+                <a title="logoFB" href="https://www.facebook.com/e.garcia.rv/" target="_blank"><img src="Images/logoFB.png" alt="logoFB" width="50px" height="50px" align=right></a>        
+                <a title="logoLK" href="https://www.linkedin.com/in/evagarciaprofile" target="_blank"><img src="Images/logoLK.jpg" alt="logoLK" width="50px" height="50px" align=right></a>
+                <a title="logomail" href="mailto:e.garcia.rv@gmail.com" target="_blank"><img src="Images/logomail.png" alt="logomail" width="50px" height="50px" align=right></a>
+            </nav>     
+        </div>      
+    </header>
+    <header class="sticky">
+        <div class="navegador2">
+            <nav class="nav">
+                <ul class="nav-menu">
+                    <li>
+                    <a href="#">¿Quién Soy?</a>
+                    </li>
+                    <li>
+                    <a href="#">Servicios</a>
+                    </li>
+                    <li>
+                    <a href="#">Clientes</a>
+                    </li>
+                    <li>
+                    <a href="#">Contacta</a>
+                    </li>
+                </ul>
+            </nav>     
+        </div>      
+    </header>
+    <h2 class="sticky">
+        <div class="central">
+            <img src="Images/teclado.jpeg" alt="mktdigital" width="350px" height="300px">
+            <img src="Images/marketing.jpeg" alt="marketing" width="350px" height="300px">
+            <img src="Images/content mkt.jpeg" alt="contentmkt" width="350px" height="300px">
+        </div>       
     </h2>
-    <section>
-        <style>
-            p{
-            display: inline;   
-            }
-        </style>
-        <div>
-            <p class="thick-black-border" align="left" >bla bla blaaa</p>
-            <p class="thick-black-border" align="center" >bla bla blaaa</p>
-            <p class="thick-black-border" align="right" >bla bla blaaa</p>
-        </div>
+    <br></br>
+    <br></br>
+    <h3>
+        
+        <style type="text/css">
+            .tg  {border-collapse:collapse;border-spacing:0;}
+            .tg td{border-color:rgb(253, 251, 251);border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+              overflow:hidden;padding:10px 5px;word-break:normal;}
+            .tg th{border-color:rgb(250, 249, 249);border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+              font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+            .tg .tg-0blg{color:#ffffff;font-weight:bold;text-align:left;vertical-align:top}
+            .tg .tg-7803{color:#ffffff;text-align:left;vertical-align:top}
+            </style>
+            <table class="tg" style="margin: 0 auto;">
+            <thead>
+              <tr>
+                <th class="tg-0blg">Concepto</th>
+                <th class="tg-0blg">Horas</th>
+                <th class="tg-0blg">Precio</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="tg-7803">Seminarios</td>
+                <td class="tg-7803">2hrs</td>
+                <td class="tg-7803">500eur</td>
+              </tr>
+              <tr>
+                <td class="tg-7803">Dinamización Eventos</td>
+                <td class="tg-7803">5hrs</td>
+                <td class="tg-7803">500eur</td>
+              </tr>
+              <tr>
+                <td class="tg-7803">Content creation</td>
+                <td class="tg-7803">15hrs</td>
+                <td class="tg-7803">1200</td>
+              </tr>
+            </tbody>
+            </table>
+        
+    </h3>
 
-    </section>
     <br> </br>
-
-    <div>
-        <img src="Images/IMG_0094.JPG" width="275" height="400">
-    </div>
-         
-    <footer>
-        <p>&#169; Eva Garcia 2021 </p>
+  
+    <footer>    
+        <p class="p">&#169; Eva Garcia 2021 </p>
     </footer>
 
 </body>
