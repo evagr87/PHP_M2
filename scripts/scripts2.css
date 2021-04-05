@@ -1,0 +1,105 @@
+body{
+    box-sizing: border-box;
+}
+.navegador{
+background: #000;
+color: white;
+height: 15vh; 
+display: flex;
+/* margin-bottom: 10vh; */
+}
+.logo{
+    flex-direction: flex-start;
+    color: gold;
+    /* width: 30vw; */
+}
+.redesSociales{
+    width: 70vw;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    
+}
+.redes{
+    height: 7vh;
+    width: 50px;
+    margin: 10px 10px;
+    object-fit: contain;
+}
+.redes img{
+   border-radius: 50%;
+    width: 45px;
+    height: 45px;
+   
+    
+}
+
+.menu{
+    margin-top: 1vh;
+    background-color: greenyellow;
+    height: 9vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menucontent{
+    background-color: hotpink;
+    /* height: 25vh; */
+    padding: 2px;
+}
+
+.contenedor{
+margin-top: 1vh;
+background: black;
+height: 25vh;
+/* width: 100vw; */
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.individual{
+    height: 20vh;
+    width: 200px;
+    background-color: red;   
+}
+
+.individual img{
+    object-fit: cover;
+    height: 20vh;
+    width: 200px;
+}
+
+.contenedorCentral{
+    background-color: skyblue;
+    margin-top: 1vh;
+    height: 35vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.lateral{
+    background-color: slateblue;
+    width: 25vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.central{
+    background-color: teal;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer{
+    margin-top: 1vh;
+    background-color: royalblue;
+    color: seashell;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

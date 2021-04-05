@@ -13,9 +13,10 @@ a {
     list-style: none;
   }
   /* navegador */
-  header.sticky{
+  .sticky{
     position: sticky;
   }
+
   .navegador {
     width: 100%;
     margin: auto;
@@ -28,7 +29,6 @@ a {
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin: auto;
     margin-top: 3vh;
     
   }
